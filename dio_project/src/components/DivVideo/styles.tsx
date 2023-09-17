@@ -10,4 +10,5 @@ export const VideoJoia = styled.video`
     width: 100%;
     z-index: -1;
     background-size: cover;
+   
 `
