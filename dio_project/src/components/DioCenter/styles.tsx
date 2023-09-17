@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const Dio = styled.h1`
     font-size: 165px;
-    font-family: "Josefin Sans", Sans-serif
+    font-family: "Josefin Sans", Sans-serif;
+    color: #fff;
 `
 
 export const Description = styled.h1`
@@ -10,7 +11,8 @@ export const Description = styled.h1`
     font-weight: 300;
     line-height: 34px;
     outline: 0;
-    font-family: "Josefin Sans", Sans-serif
+    font-family: "Josefin Sans", Sans-serif;
+    color: #fff;
   
 `
 
@@ -24,7 +26,7 @@ export const DivCenter = styled.div`
     margin-right: auto;
     margin-left: auto;
     margin-top: 100px;
-    margin-bot: 100px;
+    margin-bottom: 100px;
 `
 export const DioDiv = styled.div`
     display:block;
@@ -39,5 +41,5 @@ export const Button = styled.button`
     background-color: #4D734FD9;
     color: #fff;
     border: none;
-    pointer: 
+    cursor: pointer;
 `
