@@ -27,8 +27,7 @@ export default function Home() {
         <ListaJoias/>
       </section>
       <section>
-        <Footer/>
-        
+        <Footer/>        
       </section>
     </div>
     

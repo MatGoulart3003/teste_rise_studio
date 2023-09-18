@@ -1,7 +1,7 @@
 import { api } from "@/Services/Api";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { Button, Description, DivContainer, ImageJoia, JoiaBox, JoiaItem, Value } from "./styles";
+import { ArteConquista, Button, Description, DivContainer, DivElementAfterVideo, DivEspacadora, DivFabricacoes, Fabricacoes, ImageJoia, JoiaBox, JoiaItem, Value, VivencieExperiencia } from "./styles";
 
 export default function ListaJoias (){
 
@@ -25,13 +25,16 @@ return(
         
         <DivContainer>
             <div>
-                <div>
-                    <h3>VIVENCIE A EXPERIÊNCIA USANDO NOSSAS JOIAS EM PRATA</h3>
-                    <h1>a arte que acompanha sua conquista</h1>
-                </div>
-                <div>
-                    <h1>Fabricações</h1>
-                </div>                
+                <DivEspacadora>
+                    <DivElementAfterVideo>
+                        <VivencieExperiencia>VIVENCIE A EXPERIÊNCIA USANDO
+                            NOSSAS JOIAS EM PRATA</VivencieExperiencia>
+                        <ArteConquista>a arte que acompanha sua conquista</ArteConquista>
+                    </DivElementAfterVideo>
+                </DivEspacadora>
+                <DivFabricacoes>
+                    <Fabricacoes>fabricações</Fabricacoes>
+                </DivFabricacoes>                
                 <JoiaBox>
                     {joias.map((joia)=>( 
                         <JoiaItem key={joia.id}>

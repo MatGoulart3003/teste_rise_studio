@@ -3,6 +3,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --e-global-typography-5b4e556-font-family: "Josefin Sans";
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,8 +17,8 @@
 body{
   margin: 0;
   background-color: #fff;
-  color: #fff
-  
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
 }
 h1{
   color: black;
