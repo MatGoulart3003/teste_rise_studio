@@ -1,5 +1,5 @@
 # Como Baixar e Rodar o projeto do teste.
-Este guia rápido mostra como baixar e executar um projeto Next.js do GitHub usando Yarn.
+Este guia rápido mostra como baixar e executar o projeto do teste em Next.js
 
 ## Passos
 
